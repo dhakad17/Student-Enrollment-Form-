@@ -32,10 +32,10 @@ Click [Reset] to reset the form as per the step-2.
 Student Enrollment Form that will store data in STUDENT-TABLE relation of SCHOOL-DB database.
 
 Input Fields are :
-Roll-No: Roll Number of the student in the School.
-Full-Name: Full name of the student. 
-Class: Class in which student is currently enrolled.
-Birth-Date: Date of Birth of the student.
-Address: Permenent address of the student.
-Enrollment-Date: Date on which student enrolled in school.
+1) Roll-No: Roll Number of the student in the School.
+2) Full-Name: Full name of the student. 
+3) Class: Class in which student is currently enrolled.
+4) Birth-Date: Date of Birth of the student.
+5) Address: Permenent address of the student.
+6) Enrollment-Date: Date on which student enrolled in school.
 
