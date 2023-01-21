@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+ 
+  <title>Student Form</title>
+</head>
+
+<body>
+  <div class="container">
+    <form>
+      <div class="form-group">
+        <label for="rollnumber">Roll Number:</label>
+        <input type="text" class="form-control" id="rollnumber" name="rollnumber" onchange="getStudent()" >
+      </div>
+      <div class="form-group">
+        <label for="fullname">Full Name:</label>
+        <input type="text" class="form-control" id="fullname" name="fullname">
+      </div>
+      <div class="form-group">
+        <label for="class">Class:</label>
+        <input type="text" class="form-control" id="class" name="class">
+      </div>
+      <div class="form-group">
+        <label for="dob">Date of Birth:</label>
+        <input type="date" class="form-control" id="dob" name="dob">
+      </div>
+      <div class="form-group">
+        <label for="address">Address:</label>
+        <textarea class="form-control" id="address" name="address"></textarea>
+      </div>
+      <div class="form-group">
+        <label for="enrollmentdate">Enrollment Date:</label>
+        <input type="date" class="form-control" id="enrollmentdate" name="enrollmentdate">
+      </div>
+      <button type="button" class="btn btn-primary" id="save" onclick="saveData()" disabled>Save</button>
+      <button type="button" class="btn btn-primary" id="change" onclick="changeData()" disabled>Update</button>
+      <button type="button" class="btn btn-primary" id="reset" onclick="resetForm()" disabled>Reset</button>
+    </form>
+  </div>
+
+  <script type="text/javascript" src="http://login2explore.com/jpdb/resources/js/0.0.4/jpdb-commons.js"></script>
+  <script type="text/javascript" src="index.js"></script>
+</body>
+
+</html>
